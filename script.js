@@ -27,6 +27,12 @@ downloadBtn.addEventListener('click', ()=>{
     }
 });
 
+/**
+ * Checks if the input is empty and generates a QR code or displays an alert accordingly.
+ * This function evaluates the length of the qrText input value and either calls
+ * the generateQRCode function or displays an alert message to the user.
+ * @returns {void} This function does not return a value.
+ */
 function isEmptyInput(){
     // if(qrText.value.length > 0){
     //     generateQRCode();
